@@ -1,0 +1,380 @@
+/* Start Global Variables  */
+:root {
+    --main-bg-color: #f1f6f9;
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+    --main-transition: 0.3s;
+}
+
+/* End Global Variables  */
+
+.d-flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.d-block {
+    display: block;
+}
+
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.rad-half {
+    border-radius: 50%;
+}
+
+/* Padding + Margin */
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.pb-5 {
+    padding-bottom: 5;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pl-10 {
+    padding-left: 5px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+/* Padding + Margin */
+/* Font  */
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+/* Font  */
+.w-fit {
+    width: fit-content;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+/* Font Color  */
+.c-grey {
+    color: var(--grey-color);
+}
+
+.c-white {
+    color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-blue-alt {
+    color: var(--blue-alt-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+/* Font Color  */
+/* bg-Color  */
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-blue-alt {
+    background-color: var(--blue-alt-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-grey {
+    background-color: var(--grey-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+/* bg-Color  */
+/* Borders */
+.b-none {
+    border: none;
+}
+
+.b-eee {
+    border: 1px solid #eee;
+}
+
+.b-ccc {
+    border: 1px solid #ccc;
+}
+
+/* Borders */
+/* Position */
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+/* Position */
+.txt-c {
+    text-align: center;
+}
+
+/* Start Component  */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btw-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title {
+    margin: 20px 20px 40px;
+}
+
+.main-title::after,
+.main-title::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+}
+
+.main-title::before {
+    z-index: 1;
+    width: 35px;
+    background-color: black;
+}
+
+.main-title::after {
+    width: 140px;
+    background-color: white;
+
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .txt-c-mobile {
+        text-align: center;
+    }
+
+    .block-mobile {
+        display: block;
+    }
+}
+
+/* End Component  */
